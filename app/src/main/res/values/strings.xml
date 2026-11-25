@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">NotifVault</string>
+    <string name="app_tagline">خزنة إشعاراتك المحلية بأمان تام</string>
+    <string name="notification_listener_service_name">حفظ إشعارات NotifVault</string>
+
+    <!-- Navigation -->
+    <string name="nav_dashboard">الرئيسية</string>
+    <string name="nav_log">السجل</string>
+    <string name="nav_apps">التطبيقات</string>
+    <string name="nav_favorites">المفضلة</string>
+    <string name="nav_settings">الإعدادات</string>
+    <string name="nav_search">البحث</string>
+
+    <!-- Dashboard -->
+    <string name="dashboard_offline_badge">محلي بالكامل • دون إنترنت</string>
+    <string name="dashboard_saved_count_label">الإشعارات المحفوظة</string>
+    <string name="dashboard_monitored_count_label">التطبيقات المراقبة</string>
+    <string name="dashboard_favorites_count_label">المفضلة</string>
+    <string name="dashboard_view_all_log">عرض سجل الإشعارات</string>
+    <string name="dashboard_recent_messages">آخر الرسائل المحفوظة</string>
+    <string name="dashboard_recent_empty_title">لا توجد رسائل محفوظة بعد</string>
+    <string name="dashboard_recent_empty_subtitle">فعّل صلاحية الوصول للإشعارات واختر التطبيقات التي تود متابعتها لحفظ إشعاراتها محليًا.</string>
+
+    <!-- Permission Card & Dialog -->
+    <string name="permission_status_enabled">صلاحية الإشعارات مفعّلة</string>
+    <string name="permission_status_disabled">صلاحية الإشعارات غير مفعّلة</string>
+    <string name="permission_desc_enabled">الخدمة نشطة وتستقبل إشعارات التطبيقات التي اخترتها وتحفظها محليًا على جهازك فقط.</string>
+    <string name="permission_desc_disabled">يحتاج NotifVault إلى صلاحية الوصول إلى الإشعارات لقراءة إشعارات التطبيقات المختارة وحفظها على جهازك فقط دون اتصال بالإنترنت.</string>
+    <string name="permission_action_enable">تفعيل صلاحية الإشعارات</string>
+    <string name="permission_action_manage">إدارة الصلاحية</string>
+    <string name="permission_guide_title">تفعيل الوصول إلى الإشعارات</string>
+    <string name="permission_guide_body">لأمانك وخصوصيتك:\n• يقرأ التطبيق إشعارات التطبيقات التي تحددها أنت فقط.\n• لا يتم إرسال أي بيانات أو رسائل خارج هاتفك.\n• لا يمكن استرجاع رسائل وصلت قبل تثبيت التطبيق أو تفعيل الصلاحية.\n\nخطوات التفعيل:\n1. اضغط على «الانتقال إلى الإعدادات».\n2. ابحث عن NotifVault في القائمة.\n3. فعّل المفتاح ووافق على التنبيه.</string>
+    <string name="permission_guide_confirm">الانتقال إلى الإعدادات</string>
+    <string name="permission_guide_cancel">لاحقًا</string>
+
+    <!-- Log & Search -->
+    <string name="log_title">سجل الإشعارات</string>
+    <string name="log_sort_newest">الأحدث أولًا</string>
+    <string name="log_sort_oldest">الأقدم أولًا</string>
+    <string name="log_filter_all">الكل</string>
+    <string name="log_empty_title">السجل فارغ حاليًا</string>
+    <string name="log_empty_subtitle">ستظهر هنا الإشعارات والرسائل الواردة من التطبيقات المراقبة فور وصولها.</string>
+    <string name="search_title">البحث المحلي</string>
+    <string name="search_hint">ابحث بالمرسل أو نص الرسالة أو اسم التطبيق...</string>
+    <string name="search_empty_prompt">اكتب كلمة للبحث في قاعدة البيانات المحلية</string>
+    <string name="search_no_results">لم يتم العثور على نتائج مطابقة</string>
+
+    <!-- Detail -->
+    <string name="detail_title">تفاصيل الرسالة</string>
+    <string name="detail_sender">المرسل</string>
+    <string name="detail_notification_title">عنوان الإشعار</string>
+    <string name="detail_app_name">التطبيق</string>
+    <string name="detail_package_name">اسم الحزمة</string>
+    <string name="detail_received_at">وقت الاستقبال</string>
+    <string name="detail_message_content">محتوى الرسالة</string>
+    <string name="detail_copy_message">نسخ النص</string>
+    <string name="detail_copied_snackbar">تم نسخ نص الرسالة</string>
+    <string name="detail_delete_message">حذف الرسالة</string>
+    <string name="detail_delete_confirm_title">حذف هذه الرسالة؟</string>
+    <string name="detail_delete_confirm_body">سيتم حذف هذه النسخة المحفوظة نهائيًا من جهازك.</string>
+    <string name="action_delete">حذف</string>
+    <string name="action_cancel">إلغاء</string>
+    <string name="action_confirm">تأكيد</string>
+
+    <!-- Monitored Apps -->
+    <string name="apps_title">التطبيقات المراقبة</string>
+    <string name="apps_opt_in_notice">لا تتم مراقبة أي تطبيق إلا بعد تفعيله يدويًا. يمكنك أيضًا استثناء أي تطبيق لمنع حفظ إشعاراته.</string>
+    <string name="apps_search_hint">ابحث عن تطبيق مثبت...</string>
+    <string name="apps_featured_header">تطبيقات المراسلة المدعومة</string>
+    <string name="apps_installed_header">التطبيقات المثبتة</string>
+    <string name="apps_installed_badge">مثبّت</string>
+    <string name="apps_not_installed_badge">غير مثبّت</string>
+    <string name="apps_exclude_action">استثناء</string>
+    <string name="apps_excluded_badge">مستثنى</string>
+    <string name="apps_filter_all">الكل</string>
+    <string name="apps_filter_monitored">المراقبة</string>
+    <string name="apps_filter_excluded">المستثناة</string>
+
+    <!-- Favorites -->
+    <string name="favorites_title">الرسائل المفضلة</string>
+    <string name="favorites_empty_title">لا توجد رسائل مفضلة</string>
+    <string name="favorites_empty_subtitle">اضغط على أيقونة النجمة بجانب أي رسالة لإضافتها إلى المفضلة للوصول السريع.</string>
+
+    <!-- Settings -->
+    <string name="settings_title">الإعدادات والخصوصية</string>
+    <string name="settings_privacy_section">الخصوصية والأمان</string>
+    <string name="settings_otp_filter_title">تجاهل رموز التحقق وكلمات المرور</string>
+    <string name="settings_otp_filter_subtitle">منع حفظ الإشعارات التي تحتوي على رموز OTP أو كلمات مرور حساسة تلقائيًا</string>
+    <string name="settings_appearance_section">المظهر</string>
+    <string name="settings_theme_system">حسب النظام</string>
+    <string name="settings_theme_light">الوضع الفاتح</string>
+    <string name="settings_theme_dark">الوضع الداكن</string>
+    <string name="settings_data_section">إدارة البيانات المحلية</string>
+    <string name="settings_delete_all_title">حذف جميع البيانات المحفوظة</string>
+    <string name="settings_delete_all_subtitle">إفراغ سجل الإشعارات والمفضلة من قاعدة البيانات المحلية بالكامل</string>
+    <string name="settings_delete_all_confirm_title">تأكيد حذف جميع البيانات؟</string>
+    <string name="settings_delete_all_confirm_body">سيتم مسح جميع الإشعارات المحفوظة نهائيًا ولا يمكن التراجع عن هذه الخطوة.</string>
+    <string name="settings_deleted_all_snackbar">تم حذف جميع البيانات المحفوظة</string>
+    <string name="settings_privacy_charter_title">ميثاق الخصوصية والاستخدام المحلي</string>
+    <string name="settings_privacy_charter_body">• يعمل التطبيق 100% دون اتصال بالإنترنت ولا يملك صلاحية الشبكة.\n• تحفظ كافة الإشعارات في قاعدة بيانات SQLite داخل جهازك فقط.\n• لا توجد حسابات مستخدمين أو تحليلات أو إعلانات.\n• يحفظ التطبيق النص المتاح في إشعار Android فقط، ولا يسترجع الوسائط المحذوفة أو الرسائل التي لم يظهر لها إشعار.</string>
+</resources>

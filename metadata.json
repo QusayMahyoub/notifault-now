@@ -1,0 +1,6 @@
+{
+  "name": "NotifVault",
+  "description": "خزنة محلية آمنة لحفظ إشعارات التطبيقات المختارة والبحث فيها دون اتصال بالإنترنت.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
